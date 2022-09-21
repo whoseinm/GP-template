@@ -1,0 +1,330 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#mainDiv{
+    width: 100%;
+    min-height: 70px;
+}
+
+#mainDiv #welcome{
+    width: 100%;
+    height: 937px;
+    background-image: url("../imgs/hero-bg.jpg");
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainDiv #welcome #header{
+    width: 100%;
+    height: 70px;
+    color: white;
+    background: transparent;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#mainDiv #welcome #header ul{
+    display: flex;
+    list-style: none;
+}
+
+#mainDiv #welcome #header ul li{
+    padding-left: 70px;
+}
+
+#mainDiv #welcome #header ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+#mainDiv #welcome #header ul li a:hover{
+    color: #ffc451;
+    transition: 0.4s;
+}
+
+#mainDiv #welcome #header button{
+    padding: 7px 25px 8px 25px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #ffc451;
+    color: white;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+#mainDiv #welcome #header button:hover{
+    background-color: #ffc451;
+    border: 2px solid transparent;
+    color: black;
+    transition: 0.5s;
+}
+
+#mainDiv #welcome #overlay{
+    width: 100%;
+    height: 937px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+}
+
+#mainDiv #welcome #container{
+    width: 1080px;
+    height: 600px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
+#mainDiv #welcome #container h1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#mainDiv #welcome #container #boxes{
+    width: 100%;
+    height: 320px;
+    /* background: red; */
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainDiv #welcome #container #boxes #box1{
+    width: 196px;
+    height: 162px;
+    /* background-color: black; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box1:hover{
+    border-color: #ffc451;
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box1 #part1{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc451;
+}
+
+#mainDiv #welcome #container #boxes #box1 #part2{
+    width: 100%;
+    height: 98px;
+    /* background-color: white; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#mainDiv #welcome #container #boxes #box2{
+    width: 196px;
+    height: 162px;
+    /* background-color: black; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box2 #part1{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc451;
+}
+
+#mainDiv #welcome #container #boxes #box2 #part2{
+    width: 100%;
+    height: 98px;
+    /* background-color: white; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#mainDiv #welcome #container #boxes #box3{
+    width: 196px;
+    height: 162px;
+    /* background-color: black; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box3 #part1{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc451;
+}
+
+#mainDiv #welcome #container #boxes #box3 #part2{
+    width: 100%;
+    height: 98px;
+    /* background-color: white; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#mainDiv #welcome #container #boxes #box4{
+    width: 196px;
+    height: 162px;
+    /* background-color: black; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box4 #part1{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc451;
+}
+
+#mainDiv #welcome #container #boxes #box4 #part2{
+    width: 100%;
+    height: 98px;
+    /* background-color: white; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#mainDiv #welcome #container #boxes #box5{
+    width: 196px;
+    height: 162px;
+    /* background-color: black; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box5 #part1{
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffc451;
+}
+
+#mainDiv #welcome #container #boxes #box5 #part2{
+    width: 100%;
+    height: 98px;
+    /* background-color: white; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#mainDiv #welcome #container #boxes #box2:hover{
+    border-color: #ffc451;
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box3:hover{
+    border-color: #ffc451;
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box4:hover{
+    border-color: #ffc451;
+    transition: 0.3s;
+}
+
+#mainDiv #welcome #container #boxes #box5:hover{
+    border-color: #ffc451;
+    transition: 0.3s;
+}
+
+
+#mainDiv #about{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #about #container_about{
+    width: 1380px;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+}
+
+#mainDiv #about #container_about #part1_about{
+    width: 690px;
+    height: inherit;
+    /* background-color: black; */
+}
+
+#mainDiv #about #container_about #part1_about h1{
+    font-size: 28px;
+    color: #444444;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mainDiv #about #container_about #part1_about i{
+    font-size: 16px;
+    color: #444444;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+#mainDiv #about #container_about #part2_about{
+    width: 690px;
+    height: inherit;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
